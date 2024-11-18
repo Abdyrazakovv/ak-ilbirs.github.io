@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="header">
+      <div class="icon">
+        <img src="./img/logo2.jpg" alt="" />
+      </div>
+      <div class="company-info">
+        <p data-i18n="greeting"></p>
+        <p data-i18n="description"></p>
+      </div>
+      <div class="lang-select">
+        <label for="language-selector">
+          <img class="lang-img" src="./img/globe-lang.svg" alt="Globe icon" />
+        </label>
+        <select id="language-selector" class="lang">
+          <option value="en">En</option>
+          <option value="ru">Ru</option>
+          <option value="kg">Kg</option>
+        </select>
+      </div>
+    </div>
+
+    <div class="container-bg">
+      <div class="container">
+        <div class="info-sections">
+          <div class="warehouse">
+            <h2 data-i18n="warehouses"></h2>
+            <div class="warehouse-section">
+              <div class="warehouse-card">
+                <h3 class="city" data-i18n="guangzhou"></h3>
+                <p class="zh-hant">
+                  广州市越秀区粤溪北路明德创业园116号3号门 阿列 <br />
+                  <span>(+86) 130 4209 1000</span> <br />
+                  （河边的一排房子就是，工作时间12:00-21:30）
+                </p>
+                <!-- <p class="transcription">
+                  Транскрипция: Xinjiang wulumuqi mi dongqu xinhua ling bei qu
+                  Haiguan jianguan ku 54 hao kufang
+                </p> -->
+                <p class="ru">
+                  Провинция Синьцзян, город Гуанчжоу, район Мидун, район Синьхуа
+                  Линбэй Склад таможенного надзора № 54
+                </p>
+                <p class="warehouse-contact">
+                  Имя сотрудника <span>(+996) 706 199 144</span>
+                </p>
+                <button
+                  data-i18n="copyAddress"
+                  class="copy-btn"
+                  onclick="copyAddress('广州市越秀区粤溪北路明德创业园116号3号门 阿列 13042091000 （河边的一排房子就是，工作时间12:00-21:30）')"
+                ></button>
+              </div>
+
+              <div class="warehouse-card">
+                <h3 class="city" data-i18n="urumqi"></h3>
+                <p class="zh-hant">
+                  新疆乌鲁木齐市天山区大湾北路西域库区新号174 <br />
+                  <span>(+86) 155 9984 1936</span> <br />
+                </p>
+                <!-- <p class="transcription">
+                  Транскрипция: Xinjiang wulumuqi mi dongqu xinhua ling bei qu
+                  Haiguan jianguan ku 54 hao kufang
+                </p> -->
+                <p class="ru">
+                  Провинция Синьцзян, город Урумчи, район Мидун, район Синьхуа
+                  Линбэй Склад таможенного надзора № 54
+                </p>
+                <p class="warehouse-contact">
+                  Имя сотрудника <span>(+996) 770 199 144</span>
+                </p>
+                <button
+                  data-i18n="copyAddress"
+                  class="copy-btn"
+                  onclick="copyAddress('新疆乌鲁木齐市天山区大湾北路西域库区新号174 15599841936')"
+                ></button>
+              </div>
+            </div>
+            <div class="social-media">
+              <h2 data-i18n="socialNetworks"></h2>
+              <div class="social-media-link">
+                <a class="links-social" href="#"
+                  ><img src="./img/instagram.svg" alt="" />
+                  <p>Instagram</p></a
+                >
+                <a class="links-social" href="#"
+                  ><img src="./img/instagram.svg" alt="" />
+                  <p>Telegram</p></a
+                >
+                <a class="links-social" href="#"
+                  ><img src="./img/instagram.svg" alt="" />
+                  <p>Website</p></a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="contact-div">
+            <h2 data-i18n="ourContacts"></h2>
+            <div class="contact-section">
+              <h3 data-i18n="contacNnumbers"></h3>
+              <a class="contact-a" href="tel:+996706199144">
+                <p class="href-title">
+                  whatspp: <span>+996 (706) 199 - 144</span>
+                </p>
+              </a>
+              <a class="contact-a" href="tel:+996770199144">
+                <p class="href-title">
+                  whatspp: <span>+996 (770) 199 - 144</span>
+                </p>
+              </a>
+              <p class="href-title">wechats:</p>
+              <div class="qrs-block">
+                <a href="https://www.wechat.com/">
+                  <img src="./img/wechat1.png" alt="QR Code" />
+                </a>
+                <a href="https://www.wechat.com/">
+                  <img src="./img/wechat2.png" alt="QR Code" />
+                </a>
+              </div>
+
+              <a class="contact-a" href="mailto:horizonlogisticskg@gmail.com"
+                ><p class="href-title">Email:</p>
+                <p>ak-ilbirs@gmail.com</p></a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p>Ak-Ilbirs Transport company</p>
+      <p>
+        <span>
+          <img class="address" src="./img/address.svg" alt="address" />
+        </span>
+        Адрес:
+        <a href="https://go.2gis.com/6ko5i" target="_blank">
+          г. Бишкек, ул. Эмгекчил 5-я, 17
+        </a>
+      </p>
+
+      <p><a href="tel:+996500022002">Телефон: +996 (507) 022 - 002</a></p>
+      <p>
+        <a href="mailto:horizonlogisticskg@gmail.com"
+          ><span><img class="address" src="./img/mail.svg" alt="Mail" /></span
+          >Email: ak-ilbirs@gmail.com</a
+        >
+      </p>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
