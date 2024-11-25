@@ -7,8 +7,13 @@
 
   "guangzhou": "Guangzhou city",
   "urumqi": "Urumqi city",
+  "nameCompany": "Ak-Ilbirs logistics company",
+  "manager": "manager",
+  "operator": "operator",
 
   "copyAddress": "Copy address",
+  "address": "Bishkek, st. Emgekchil 5th, 17",
+  "addressName": "Address",
   "socialNetworks": "Our social networks:",
   "contacNnumbers": "Contact numbers:"
 }

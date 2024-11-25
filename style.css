@@ -8,7 +8,7 @@ body {
 }
 
 .header {
-  background-color: rgb(0 75 125);
+  background-color: #ffffff;
   padding: 15px 40px;
   display: flex;
   justify-content: space-between;
@@ -21,18 +21,21 @@ body {
 }
 
 .header img {
-  height: 70px;
-  margin-right: 20px;
+  height: 100px;
 }
 
 .header .company-info {
-  text-align: right;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .company-info > p {
   text-align: center;
-  color: #fff;
+  color: #004383;
   margin: 5px;
+  font-weight: bold;
 }
 
 .header .lang-select {
@@ -48,11 +51,11 @@ body {
 }
 
 .lang-select .lang {
-  padding: 5px 5px;
+  padding: 7px 5px;
   margin: 0;
-  border: 1px solid #ccc;
+  border: 1px solid #4b7cac;
   background: none;
-  color: #dfdfdf;
+  color: #007bff;
   font-size: 14px;
   border-radius: 8px;
   cursor: pointer;
@@ -83,6 +86,10 @@ body {
   color: #fff;
 }
 
+.nameUser{
+  font-weight: bold;
+}
+
 .ilbirs {
   color: #fff;
 }
@@ -111,7 +118,7 @@ body {
   position: relative;
   background-color: #465564;
   /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKtoiXZoApJeMlv4qakPnWnASeKo5a-Vq1Lw&s'); */
-  background-image: url("./img/carpark.jpg");
+  background-image: url("./img/qwqw.PNG");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -130,7 +137,7 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgb(0 0 0 / 24%);
   z-index: 1;
   border-radius: inherit;
   width: 100%;
@@ -142,7 +149,7 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
+  /* background-color: rgba(0, 0, 0, 0.6); */
   z-index: 1;
   border-radius: inherit;
   width: 100%;
@@ -161,6 +168,10 @@ body {
   display: flex;
   align-items: flex-start;
   gap: 20px;
+}
+
+.warehouse {
+  width: 75%;
 }
 
 .warehouse-div {
@@ -286,21 +297,23 @@ p {
 }
 
 .footer {
-  background-color: rgb(0 75 125);
+  background-color: #ffff;
   padding: 20px;
   text-align: center;
   position: relative;
 }
 
 .footer p {
-  color: #fff;
+  color: #004383;
+  font-weight: bold;
 }
 
 a {
   display: inline-flex;
   align-items: center;
-  color: white;
+  color: #004383;
   text-decoration: none;
+  font-weight: bold;
 }
 
 .address {
@@ -367,9 +380,12 @@ a:hover {
   }
 
   .container-bg {
-    background-image: url("./img/carpark.jpg");
+    background-image: url("./img/qwqw.PNG");
+    background-position: 55% 50%;
   }
-
+  .warehouse {
+    width: 100%;
+  }
   .warehouse-card,
   .contact-section {
     padding: 15px;
@@ -392,13 +408,18 @@ a:hover {
   }
 
   .container-bg {
-    background-image: url("./img/19655930.jpg");
+    background-image: url("./img/qwqw.PNG");
+    background-position: 55% 50%;
   }
+  
 
   h2 {
     font-size: 18px;
   }
 
+  .warehouse {
+    width: 100%;
+  }
   .warehouse-card h3 {
     font-size: 16px;
   }
@@ -416,13 +437,15 @@ a:hover {
   }
 
   .container-bg {
-    background-image: url("./img/19655930.jpg");
+    background-image: url("./img/qwqw.PNG");
   }
 
   .separator {
     display: none; /* Убираем разделитель для маленьких экранов */
   }
-
+  .warehouse {
+    width: 100%;
+  }
   .warehouse-section {
     grid-template-columns: 1fr; /* Один адрес в ряд */
   }
@@ -437,13 +460,15 @@ a:hover {
   }
 
   .container-bg {
-    background-image: url("./img/19655930.jpg");
+    background-image: url("./img/qwqw.PNG");
   }
 
   .header .logo img {
     height: 40px; /* Уменьшаем размер логотипа */
   }
-
+  .warehouse {
+    width: 100%;
+  }
   .warehouse-card,
   .contact-section {
     padding: 15px; /* Уменьшаем отступы внутри карточек */
@@ -462,13 +487,15 @@ a:hover {
   }
 
   .container-bg {
-    background-image: url("./img/carpark.jpg");
+    background-image: url("./img/qwqw.PNG");
   }
 
   h2 {
     font-size: 18px; /* Уменьшаем заголовки */
   }
-
+  .warehouse {
+    width: 100%;
+  }
   .warehouse-card h3 {
     font-size: 16px;
   }

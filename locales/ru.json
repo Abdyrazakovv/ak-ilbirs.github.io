@@ -7,8 +7,13 @@
 
   "guangzhou": "Город Гуанчжоу",
   "urumqi": "Город Урумчи",
+  "nameCompany": "Ак-Илбирс логистик компани",
+  "manager": "менеджер",
+  "operator": "оператор",
 
   "copyAddress": "Копировать адрес",
+  "address": "г. Бишкек, ул. Эмгекчил 5-я, 17",
+  "addressName": "Адрес",
   "socialNetworks": "Наши соцсети:",
   "contacNnumbers": "Контактные номера:"
 }
